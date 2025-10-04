@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+
+# Byte-compiled / cache
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Streamlit and logs
+.streamlit/
+streamlit_run.log
+
+# FAISS indices and uploaded PDFs
+faiss_indices/
+uploads/
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Other
+*.sqlite3
+*.db
+
+# Ignore model/token caches
+cache/
+```
